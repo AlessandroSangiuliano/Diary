@@ -1,0 +1,32 @@
+
+".container" : {
+
+},
+
+"TextField" : {
+  color:"black",
+  hintTextColor: "gray"
+}
+
+"TextField[platform=ios]" : {
+  height: "15%",
+  font: {
+    fontSize: "14%"
+  }
+},
+
+"TextField[platform=android]" : {
+  height: "25%",
+  font: {
+    fontSize: "12dp"
+  }
+},
+
+"Button[platform=android]" : {
+  height: "25%"
+},
+
+"#register_button[platform=android]" : {
+  backgroundColor: "#03C0EF",
+  width: "70%"
+}

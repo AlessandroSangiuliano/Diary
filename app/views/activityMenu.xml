@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container" id="activity_window" title="What do you want to do?">
+		<ActionBar id="action_bar" platform="android" onHomeIconItemSelected="close"></ActionBar>
+		<TableView id="activity_table" headerTitle="Activity List">
+			<TableViewRow id="add_memory_row" onClick="clickedRow"></TableViewRow>
+			<TableViewRow id="read_mem_row" onClick="clickedRow"></TableViewRow>
+			<TableViewRow id="pic_show_row" onClick="clickedRow"></TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+  <Window class="container" id="login_window" title="Login" backgroundImage="copertina4.jpg">
+    <ActionBar id="action_bar" displayHomeAsUp="true" onHomeIconItemSelected="close" platform="android"></ActionBar>
+    <View class="container" layout="vertical" height="30%" width="30%" id="container_view">
+      <TextField id="user_id_box" top="2" hintText="User ID..."></TextField>
+        <View height="1" width="70%" backgroundColor="#03C0EF" top="1" id="divisor"/>
+      <TextField id="user_password_box" top="2" passwordMask="true" passwordMask="true" hintText="Password..."></TextField>
+      <Button id="login_button" top="2" onClick="logIn">Login</Button>
+      <Button id="register_button" top="2" onClick="createNewUser">New User</Button>
+    </View>
+  </Window>
+</Alloy>

@@ -1,0 +1,14 @@
+<Alloy>
+	<NavigationWindow id="nav_window" platform="ios">
+		<Window id="root_window" class="container" title="Diary" backgroundImage="copertina4.jpg">
+			<Button id="read_button" height="Ti.UI.SIZE" width="Ti.UI.SIZE" onClick="read">Read your Diary
+			</Button>
+		</Window>
+	</NavigationWindow>
+
+	<Window platform="android" id="root_window" class="container" title="Diary" backgroundImage="copertina4.jpg">
+		<ActionBar platform="android" id="action_bar" displayHomeAsUp="true" onHomeIconItemSelected="close"></ActionBar>
+		<Button id="read_button" height="Ti.UI.SIZE" width="Ti.UI.SIZE" onClick="read">Read your Diary
+		</Button>
+	</Window>
+</Alloy>

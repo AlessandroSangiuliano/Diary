@@ -1,0 +1,31 @@
+
+".container" : {
+  backgroundColor: "#fff"
+},
+
+"#activity_table" : {
+  top: 0,
+  height: Ti.UI.FILL,
+  width: Ti.UI.FILL,
+  separatorColor: "gray"
+},
+
+"TableViewRow" : {
+  backgroundColor: "#ebe5e0",
+  color: "black",
+  backgroundSelectedColor:'#03C0EF',
+  width: Ti.UI.FILL,
+  height: "5%"
+}
+
+"#add_memory_row" : {
+  title: "Add a memory..."
+},
+
+"#read_mem_row" : {
+  title: "Read a memory..."
+},
+
+"#pic_show_row" : {
+  title: "Whatch your photo Gallery..."
+}
