@@ -20,7 +20,7 @@ else {
 }
 
 function close(e){
-  alert('pene pene');
+  alert("pene dell'inerno");
 }
 
 handleLogin = function(e){
